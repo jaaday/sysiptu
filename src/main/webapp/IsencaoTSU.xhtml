@@ -5,23 +5,16 @@
       xmlns:p="http://primefaces.org/ui"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head>
-        <title>Loteamentos</title>
+        <title>Tabela de isencao TSU</title>
     </h:head>
     <h:body>
         <ui:decorate template="/JanelaPrincipal.xhtml">
             <ui:define name="centro">
-                <h:form>
-                    <h:panelGrid columns="2">
-                        Codigo:<p:inputText />
-                        Distrito: <p:selectOneMenu>
-
-                        </p:selectOneMenu>
-                        Setor:<p:selectOneMenu>
-
-                        </p:selectOneMenu>
-                        Descricao:<p:inputText />
-                    </h:panelGrid>
-                </h:form>
+                <h:panelGrid columns="2">
+                    Codigo:<p:inputText />
+                    Descricao:<p:inputText />
+                    Fator:<p:inputText />
+                </h:panelGrid>
             </ui:define>
         </ui:decorate>
     </h:body>
